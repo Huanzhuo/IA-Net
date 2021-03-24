@@ -2,7 +2,6 @@ import torch
 from utils import *
 from losses.loss import ContrastiveLoss
 from torch.utils.data import DataLoader
-# from dataset.industry_dataset import IndustryDataset
 from dataset.val_dataset import ValDataset
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm

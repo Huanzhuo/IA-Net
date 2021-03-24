@@ -1,0 +1,5 @@
+tensorboardX
+soundfile
+librosa
+scikit-learn
+tqdm
