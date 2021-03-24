@@ -8,6 +8,9 @@ Download MIMII dataset and store in the same folder as IA-NET: https://zenodo.or
 pip install -r requirements.txt
 ```
 
+## train IA-NET with four sources  
+`python train_ids.py --batch_size 16 --epochs 200`
+
 
 ## Reference  
 - [1] Harsh Purohit, Ryo Tanabe, Kenji Ichige, Takashi Endo, Yuki Nikaido, Kaori Suefusa, and Yohei Kawaguchi, “MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection,” arXiv preprint arXiv:1909.09347, 2019. URL: https://arxiv.org/abs/1909.09347
