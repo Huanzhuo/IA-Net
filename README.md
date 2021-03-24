@@ -9,11 +9,16 @@ pip install -r requirements.txt
 ```
 
 ## Train IA-NET with four sources  
+To train IA-Net with four sources (pump, slider, fan and valve), please simply run following code and change the parameters according to your configuration, the default IA-NET is train with batch size 16 and 200 epochs.  
 `python train_ids.py --batch_size 16 --epochs 200`  
 
-## Run a simple demo to detect anomaly with four sources
+## Run a simple demo to detect anomaly with four sources  
+We provide a simple demo with pre-trained model, the .wav files is stroed in './demo_files', please simply run following code and follow the guide.  
 `python demo.py`
 
+## Validate the performence of the IA-NET  
+To validate the performance of the IA-NET (**AUC and mAUC**), please run following code  
+`python validate_multi.py` 
 
 ## Reference  
 - [1] Harsh Purohit, Ryo Tanabe, Kenji Ichige, Takashi Endo, Yuki Nikaido, Kaori Suefusa, and Yohei Kawaguchi, “MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection,” arXiv preprint arXiv:1909.09347, 2019. URL: https://arxiv.org/abs/1909.09347
