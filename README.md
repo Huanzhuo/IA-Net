@@ -8,8 +8,11 @@ Download MIMII dataset and store in the same folder as IA-NET: https://zenodo.or
 pip install -r requirements.txt
 ```
 
-## train IA-NET with four sources  
-`python train_ids.py --batch_size 16 --epochs 200`
+## Train IA-NET with four sources  
+`python train_ids.py --batch_size 16 --epochs 200`  
+
+## Run a simple demo to detect anomaly with four sources
+`python demo.py`
 
 
 ## Reference  
